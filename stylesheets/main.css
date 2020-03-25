@@ -9,6 +9,11 @@ body {
   padding: 0;
   margin: 0;
 }
+
+a {
+  text-decoration: none;
+}
+
 .navbar-desktop {
   display: none;
 }
@@ -52,6 +57,7 @@ body {
   margin: 0 auto;
   font-weight: bold;
   font-size: 1.4em;
+  color: #fff;
 }
 
 .fieldset {
@@ -59,19 +65,25 @@ body {
   padding: 1em 0.5em;
   background-color: #bfbdbd;
   opacity: 90%;
-  margin: 2em auto;
+  margin: 1em auto 3em auto;
   border-radius: 0.5em;
 }
 
-form input {
+.fieldset__text {
+  text-align: left;
+  font-size: 0.88em;
+}
+
+.header-form input {
   width: 100%;
   padding: 8px;
   margin-top: 0.5em;
 }
 
-form a {
+.header-form .search-btn {
   display: block;
   background-color: #d4574a;
+  color: #fff;
   width: 100%;
   padding: 8px;
   margin-top: 0.5em;
@@ -79,8 +91,10 @@ form a {
 
 .how-btn {
   background-color: #d3d4db;
-  padding: 0.6em 0.8em;
+  padding: 0.8em 0.8em;
   border-radius: 0.1em;
+  color: #000;
+  font-size: 0.88em;
 }
 
 .uppercase {
