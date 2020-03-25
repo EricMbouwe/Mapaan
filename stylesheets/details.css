@@ -1,18 +1,37 @@
 body {
-  font-family: acumin-pro, "Acumin Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  padding: 0;
-  margin: 0;
+  font-family: acumin-pro, "Acumin Pro", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
   font-size: 14px;
 }
 
 * {
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.navbar-desktop {
+  display: none;
+}
+
+.navbar-mobile {
+  display: flex;
+  flex-direction: column;
+  background-color: #D4574A;
 }
 
 @media (min-width: 768px) {
-
+  .navbar-mobile {
+    display: flex;
+    background-color: #D4574A;
+  }
 }
 
 @media (min-width: 1024px) {
+  .navbar-mobile {
+    display: none;
+  }
 
+  .navbar-desktop {
+    display: block;
+  }
 }

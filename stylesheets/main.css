@@ -9,10 +9,197 @@ body {
   padding: 0;
   margin: 0;
 }
+.navbar-desktop {
+  display: none;
+}
+
+.navbar-mobile {
+  display: flex;
+  flex-direction: column;
+  background-color: #d4574a;
+  text-align: center;
+  padding: 0.5em 0;
+}
+
+.nav-part2 {
+  display: flex;
+  justify-content: center;
+  padding-top: 0.5em;
+}
+
+.nav-part2 span {
+  margin: 0 1em;
+  padding: 5px;
+}
+
+.picture {
+  display: flex;
+  background-image: url(https://www.envoos.com/wp-content/uploads/2019/08/technology-in-cameroon-1024x435.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 40em;
+}
+
+.center-content {
+  margin: auto;
+  text-align: center;
+  padding: 2em 0;
+}
+
+.picture__title {
+  width: 95%;
+  margin: 0 auto;
+  font-weight: bold;
+  font-size: 1.4em;
+}
+
+.fieldset {
+  width: 95%;
+  padding: 1em 0.5em;
+  background-color: #bfbdbd;
+  opacity: 90%;
+  margin: 2em auto;
+  border-radius: 0.5em;
+}
+
+form input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 0.5em;
+}
+
+form a {
+  display: block;
+  background-color: #d4574a;
+  width: 100%;
+  padding: 8px;
+  margin-top: 0.5em;
+}
+
+.how-btn {
+  background-color: #d3d4db;
+  padding: 0.6em 0.8em;
+  border-radius: 0.1em;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+/* MAIN STYLE */
+
+#works {
+  text-align: center;
+  margin-top: 3em;
+}
+
+.works__title {
+}
+
+#marketing {
+  margin-top: 3em;
+  text-align: center;
+}
+
+.events-record {
+  display: flex;
+  flex-direction: column;
+}
+
+.ads {
+  display: flex;
+  flex-direction: column;
+}
+
+.events-img,
+.ads-img,
+.app-ads-img {
+  border-radius: 50%;
+  max-width: 15em;
+  order: 1;
+  margin: 1em 0;
+}
+
+.text {
+  order: 2;
+}
+
+.text h4,
+.text h6 {
+  margin: 1em 0;
+}
+
+/* FOOTER */
+.footer-links {
+  padding: 1em;
+  display: flex;
+  font-size: 0.9em;
+  justify-content: center;
+}
+
+.footer-links span {
+  margin: 0 0.2em;
+}
+
+.footer-middle {
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+  text-align: center;
+}
+
+.footer-middle div h3 {
+  margin-bottom: 0.4em;
+}
+
+.subscribe {
+
+}
+
+.contact {
+  margin-top: 1.2em;
+}
+
+.about {
+  margin-top: 1.2em;
+}
+
+.bottom {
+  text-align: center;
+  padding-bottom: 1.5em;
+  padding-top: 1em;
+}
+
+.social-icons {
+  margin-bottom: 0.5em;
+}
+
+.social-icons span {
+  margin: 0 0.5em;
+}
 
 @media (min-width: 768px) {
+  .navbar-mobile {
+    display: flex;
+    background-color: #d4574a;
+  }
 }
 
 @media (min-width: 1024px) {
-  
+  .navbar-mobile {
+    display: none;
+  }
+
+  .navbar-desktop {
+    display: block;
+  }
 }
