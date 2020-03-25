@@ -57,8 +57,9 @@ nav span {
 
 .center-content {
   margin: auto;
-  text-align: center;
   padding: 2em 0;
+  display: flex;
+  flex-direction: column;
 }
 
 .picture__title {
@@ -67,6 +68,7 @@ nav span {
   font-weight: bold;
   font-size: 1.4em;
   color: #fff;
+  text-align: center;
 }
 
 .fieldset {
@@ -79,7 +81,6 @@ nav span {
 }
 
 .fieldset__text {
-  text-align: left;
   font-size: 0.88em;
 }
 
@@ -91,6 +92,7 @@ nav span {
 
 .header-form .search-btn {
   display: block;
+  text-align: center;
   background-color: #d4574a;
   color: #fff;
   width: 100%;
@@ -104,6 +106,8 @@ nav span {
   border-radius: 0.1em;
   color: #000;
   font-size: 0.88em;
+  display: inline-block;
+  margin: 0 auto;
 }
 
 .uppercase {
@@ -223,7 +227,7 @@ nav span {
 
 /* FOOTER */
 .footer-links {
-  padding: 1em 1em 0 1em;
+  padding: 1em 2em 0 2em;
   display: flex;
   font-size: 0.9em;
   justify-content: center;
@@ -235,10 +239,6 @@ nav span {
   border-right: none;
   border-left: none;
   padding: 0.5em 0;
-}
-
-.icon__main {
-  border-radius: 50%;
 }
 
 .footer-links span {
@@ -269,8 +269,8 @@ nav span {
 }
 
 .subscribe {
-  /* margin-bottom: 1.5em; */
   color: #fff;
+  flex: 1;
 }
 
 .footer-form input {
@@ -294,11 +294,13 @@ nav span {
 .contact {
   margin-top: 1.2em;
   color: #fff;
+  flex: 1;
 }
 
 .about {
   margin-top: 1.2em;
   color: #fff;
+  flex: 1;
 }
 
 .bottom {
@@ -329,14 +331,159 @@ nav span {
     padding: 0.5em 3em;
   }
 
+  .center-content {
+    width: 70%;
+  }
+
+  .picture__title {
+    width: 100%;
+  }
+
+  .fieldset {
+    width: 100%;
+    padding: 2.5em;
+    text-align: left;
+  }
+
+  .header-form input {
+    width: 80%;
+  }
+
+  .header-form .search-btn {
+    background-color: #509cd7;
+    display: inline;
+    margin-left: -0.3em;
+    border: 0.1em solid #509cd7;
+  }
+
+  .events-record,
+  .ads,
+  .app-ads {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1em 3em;
+  }
+
+  #marketing a {
+    order: 2;
+  }
+
+  .text {
+    order: 1;
+    text-align: left;
+  }
+
+  .footer-links {
+    padding-top: 2em;
+  }
+
+  .footer-links .wrapper {
+    width: 90%;
+    text-align: center;
+    font-size: 1.5em;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+  }
+
+  .footer-middle {
+    padding: 2em 3em;
+    flex-direction: row;
+  }
+
+  .subscribe {
+    align-self: center;
+  }
+
+  .footer-form {
+    text-align: left;
+  }
+
+  .footer-form input {
+    width: 78%;
+    color: #d3d4db;
+  }
+
+  .footer-form input:focus {
+    outline-color: #d3d4db;
+    outline-width: 1px;
+  }
+
+  .footer-form a {
+    width: 20%;
+    display: inline-block;
+    margin-left: -0.3em;
+    padding: 0.41em;
+    text-align: center;
+  }
+
+  .bottom {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.8em 0.5em;
+    align-items: center;
+  }
+
+  .social-icons {
+    margin: 0;
+  }
 }
 
 @media (min-width: 1024px) {
+  body {
+    font-size: 16px;
+  }
   .navbar-mobile {
     display: none;
   }
 
   .navbar-desktop {
     display: block;
+  }
+
+  .fieldset__text {
+    display: block;
+  }
+
+  .header-form {
+    width: 100%;
+  }
+
+  .header-form .search-btn {
+    background-color: #d4574a;
+    border: 1px solid #d4574a;
+    width: 20%;
+  }
+
+  .header-form input {
+    width: 80%;
+  }
+
+  .header-form input:focus {
+    outline-width: 1px;
+    outline-color: #d4574a;
+  }
+
+  #works {
+    padding: 4em;
+  }
+
+  .one-two,
+  .three-four {
+    display: flex;
+  }
+
+  .one,
+  .two,
+  .three,
+  .four {
+    flex: 1;
+    padding: 4em;
+  }
+
+  .events-record,
+  .ads,
+  .app-ads {
+    padding: 3em 2em;
   }
 }
