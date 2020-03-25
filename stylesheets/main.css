@@ -323,9 +323,12 @@ nav span {
 
 @media (min-width: 768px) {
   .navbar-mobile {
-    display: flex;
+    flex-direction: row;
     background-color: #d4574a;
+    justify-content: space-between;
+    padding: 0.5em 3em;
   }
+
 }
 
 @media (min-width: 1024px) {
