@@ -17,8 +17,7 @@ img {
 }
 
 main {
-  padding: 0 1em;
-  margin-top: 4em;
+  margin-top: 5.5em;
   text-align: center;
 }
 
@@ -29,8 +28,8 @@ main {
 
 .details-title {
   text-align: left;
-  margin: 0.5em 0.5em 0.5em 0;
-  padding: 0.5em 0.5em 0.5em 0;
+  margin: 0.5em 0.5em;
+  padding: 0.5em 0.5em;
 }
 
 .details-title a {
@@ -68,10 +67,21 @@ main {
 }
 
 @media (min-width: 768px) {
+  main {
+    margin-top: 4em;
+    text-align: center;
+  }
+
   .details,
   .map {
     width: 70%;
     margin: auto;
+  }
+
+  .details-title {
+    text-align: left;
+    margin: 0.5em 0.5em 0.5em 0;
+    padding: 0.5em 0.5em 0.5em 0;
   }
 }
 
