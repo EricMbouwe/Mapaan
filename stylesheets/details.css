@@ -10,8 +10,69 @@ body {
   margin: 0;
 }
 
+img {
+  width: 100%;
+  max-width: 200%;
+  height: auto;
+}
+
+main {
+  padding: 0 1em;
+  margin-top: 4em;
+  text-align: center;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+}
+
+.details-title {
+  text-align: left;
+  margin: 0.5em 0.5em 0.5em 0;
+  padding: 0.5em 0.5em 0.5em 0;
+}
+
+.details-title a {
+  color: rgba(83, 83, 83, 0.685);
+  font-weight: 600;
+}
+
+.pin-btn {
+  margin: 0.5em;
+  padding: 1em;
+  color: rgb(83, 83, 83);
+  background-color: lightgrey;
+  font-size: 0.8em;
+  width: 40%;
+  font-weight: 600;
+}
+
+.read-btn {
+  margin: 0.5em;
+  padding: 1em;
+  color: rgb(83, 83, 83);
+  background-color: lightgrey;
+  font-size: 0.8em;
+  width: 40%;
+  font-weight: 600;
+}
+
+.map {
+  padding: 2em 0;
+}
+
+.map h3 {
+  margin: 0.5em;
+  padding: 0.5em;
+}
+
 @media (min-width: 768px) {
- 
+  .details,
+  .map {
+    width: 70%;
+    margin: auto;
+  }
 }
 
 @media (min-width: 1024px) {
