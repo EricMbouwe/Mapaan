@@ -3,11 +3,11 @@ The final project for the first module, This a directory of social events that p
 
 > This is a practice case of Microverse HTML and CSS course. The goal is to clone the Newsweek homepage to implement responvive design with Boostrap.
 
-![screenshot](./images/mobile.jpg)
+![screenshot](./images/mapaan1.PNG)
 
-![screenshot](./images/tablet.jpg)
+![screenshot](./images/mapaam2.PNG)
 
-![screenshot](./images/)
+![screenshot](./images/mapaan3.PNG)
 
 Additional description about the project and its features.
 
@@ -20,7 +20,9 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Link]()
+[Live Video]()
+
+[Live Link](https://rawcdn.githack.com/EricMbouwe/Microverse-HTML-CSS-capstone-project/31fdafe8bd1d492b2f743aef6a0ea552b7bc52af/index.html)
 
 ## Getting Started
 
