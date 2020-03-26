@@ -10,10 +10,6 @@ body {
   box-sizing: border-box;
 }
 
-a {
-  color: black;
-}
-
 .block {
   display: block;
 }
@@ -25,13 +21,14 @@ a {
 .filter-div {
   padding: 2em 4em;
   background-color: lightgrey;
-  margin-top: 3em;
+  margin-top: 6em;
 }
 
 .filter-text {
-  color: gray;
+  color: #9fa9a3;
   margin: 0.5em;
   padding: 0.5em;
+  font-weight: 550;
 }
 
 .date,
@@ -73,19 +70,61 @@ a {
   border-radius: 4px;
   flex: 1;
   margin-right: 0.5em;
-  padding: 0.5em;
+  padding: 0.6em;
 }
 
 .clr-btn {
   background-color: yellowgreen;
   border-radius: 4px;
   flex: 2;
-  padding: 0.5em;
+  padding: 0.6em;
+}
+
+.results {
+  text-align: center;
+  padding: 2em 1em;
+}
+
+.results h2 {
+  padding: 0.5em 0;
+  margin: 0.5em 0;
+}
+
+img {
+  width: 100%;
+  max-width: 200%;
+  height: auto;
 }
 
 .events-found {
   display: flex;
   flex-direction: column;
+  padding: 1em 0;
+}
+
+.box,
+.box-week {
+  margin: 1em 0;
+  background-color: lightgrey;
+}
+
+.event-title a {
+  font-size: 1.2em;
+  color: #000;
+}
+
+.event-title a:hover {
+  color: #d4574a;
+}
+
+.box-week-title {
+  font-weight: 600;
+  font-size: 1.5em;
+  color: #d4574a;
+}
+
+.box-week {
+  padding-bottom: 1em;
 }
 
 @media (min-width: 768px) {
@@ -101,9 +140,25 @@ a {
     flex: 1;
   }
 
+  .results {
+    padding: 2em 4em;
+    text-align: center;
+  }
+
   .events-found {
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .events-found .box {
+    flex-basis: 32%;
+    margin: 0.5em 0;
+  }
+
+  .box-week {
+    max-width: 60%;
+    margin: auto;
   }
 }
 
