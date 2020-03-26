@@ -12,10 +12,7 @@ body {
 
 a {
   text-decoration: none;
-}
-
-.navbar-desktop {
-  display: none;
+  color: #fff;
 }
 
 .navbar-mobile {
@@ -24,6 +21,10 @@ a {
   background-color: #d4574a;
   text-align: center;
   padding: 0.5em 0;
+}
+
+.d-none {
+  display: none;
 }
 
 .nav__logo {
@@ -260,8 +261,8 @@ nav span {
   color: #fff;
 }
 
-.footer-middle div h3 {
-  margin-bottom: 0.4em;
+.footer-middle div h4 {
+  margin-bottom: 1em;
 }
 
 .orange {
@@ -345,15 +346,20 @@ nav span {
     text-align: left;
   }
 
+  .search-bar {
+    display: flex;
+    margin-top: 0.5em;
+  }
+
   .header-form input {
-    width: 80%;
+    flex: 5;
+    margin-top: 0;
   }
 
   .header-form .search-btn {
     background-color: #509cd7;
-    display: inline;
-    margin-left: -0.3em;
-    border: 0.1em solid #509cd7;
+    flex: 1;
+    margin-top: 0;
   }
 
   .events-record,
@@ -397,11 +403,13 @@ nav span {
 
   .footer-form {
     text-align: left;
+    display: flex;
   }
 
   .footer-form input {
-    width: 78%;
     color: #d3d4db;
+    flex: 5;
+    margin-top: 0;
   }
 
   .footer-form input:focus {
@@ -410,11 +418,10 @@ nav span {
   }
 
   .footer-form a {
-    width: 20%;
-    display: inline-block;
-    margin-left: -0.3em;
-    padding: 0.41em;
+    display: block;
     text-align: center;
+    flex: 1;
+    margin-top: 0;
   }
 
   .bottom {
@@ -433,12 +440,14 @@ nav span {
   body {
     font-size: 16px;
   }
-  .navbar-mobile {
-    display: none;
+
+  .d-none {
+    display: inline-block;
+    margin: 0 !important;
   }
 
-  .navbar-desktop {
-    display: block;
+  .nav-part2 span {
+    margin-right: 0;
   }
 
   .fieldset__text {
@@ -452,11 +461,10 @@ nav span {
   .header-form .search-btn {
     background-color: #d4574a;
     border: 1px solid #d4574a;
-    width: 20%;
   }
 
   .header-form input {
-    width: 80%;
+  
   }
 
   .header-form input:focus {

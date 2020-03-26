@@ -9,29 +9,13 @@ body {
   padding: 0;
   margin: 0;
 }
-.navbar-desktop {
-  display: none;
-}
-
-.navbar-mobile {
-  display: flex;
-  flex-direction: column;
-  background-color: #D4574A;
-}
 
 @media (min-width: 768px) {
-  .navbar-mobile {
-    display: flex;
-    background-color: #D4574A;
-  }
+ 
 }
 
 @media (min-width: 1024px) {
-  .navbar-mobile {
-    display: none;
-  }
-
-  .navbar-desktop {
-    display: block;
+  body {
+    font-size: 16px;
   }
 }

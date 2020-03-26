@@ -15,26 +15,16 @@
         <nav class="navbar-mobile">
             <div class="nav-part1">
                 <span class="nav__location-icon"><i class="fas fa-street-view fa-2x"></i></span>
-                <span class="nav__logo bold">MAPAAN</span>
+                <span class="nav__logo bold"><a href="index.html">MAPAAN</a></span>
             </div>
 
             <div class="nav-part2">
-                <span class="uppercase"><i class="fa fa-search-location fa-lg"></i></span>
-                <span class="uppercase"><i class="fas fa-rss fa-lg"></i></span>
-                <span class="uppercase"><i class="fas fa-bars fa-lg"></i></span>
-            </div>
-        </nav>
-
-        <nav class="navbar-desktop">
-            <div class="left-nav">
-                <span class="nav__location-icon"><i class="fas fa-street-view fa-2x"></i></span>
-                <span class="nav__logo bold">MAPAAN</span>
-            </div>
-
-            <div class="right-nav">
-                <span class="uppercase"><i class="fa fa-search-location fa-lg"></i>comming soon</span>
-                <span class="uppercase"><i class="fas fa-rss fa-lg"></i>blog</span>
-                <span class="uppercase"><i class="fas fa-database fa-lg"></i>More</span>
+                <span class="uppercase"><i class="fa fa-search-location fa-lg"></i></span><span
+                    class="uppercase d-none"><a href="result.html">comming soon</a></span>
+                <span class="uppercase"><i class="fas fa-rss fa-lg"></i></span><span
+                    class="uppercase d-none">blog</span>
+                <span class="uppercase"><i class="fas fa-bars fa-lg"></i></span><span
+                    class="uppercase d-none">more</span>
             </div>
         </nav>
 
@@ -44,11 +34,13 @@
                 <div class="fieldset">
                     <form class="header-form" action="get">
                         <label class="fieldset__text uppercase">search by keyword</label>
-                        <input type="text" placeholder="Enter a keyword, Ex: concert ">
-                        <a class="search-btn uppercase" href="result.html">search</a>
+                        <div class="search-bar">
+                            <input type="text" placeholder="Enter a keyword, Ex: concert ">
+                            <a class="search-btn uppercase" href="result.html">search</a>
+                        </div>
                     </form>
                 </div>
-                <a class="how-btn uppercase" href="works">how it works</a>
+                <a class="how-btn uppercase" href="#works">how it works</a>
             </div>
         </div>
     </header>
@@ -67,7 +59,8 @@
                 <div class="two">
                     <span><i class="fas fa-map-marked-alt fa-2x"></i></span>
                     <p class="two__title uppercase bold">2-locate</p>
-                    <p class="two__text">Find the location where you want the event to attend and every event near you.
+                    <p class="two__text">Find the location where you want the event to attend and also find all the
+                        events near you.
                     </p>
                 </div>
             </div>
@@ -142,7 +135,7 @@
 
         <div class="footer-middle">
             <div class="subscribe">
-                <h3 class="uppercase bold">subscribe</h3>
+                <h4 class="uppercase bold">subscribe</h4>
                 <form class="footer-form" action="post">
                     <input type="text" placeholder="you@example.com">
                     <a href="#">send</a>
@@ -150,13 +143,13 @@
             </div>
 
             <div class="contact">
-                <h3 class="uppercase bold">contact</h3>
+                <h4 class="uppercase bold">contact</h4>
                 <h5 class="normal">want to suggest or ask a question?</h5>
                 <small class="orange">ericmbouwe@yahoo.fr</small>
             </div>
 
             <div class="about">
-                <h3 class="uppercase bold">about</h3>
+                <h4 class="uppercase bold">about</h4>
                 <small><span class="bold">MAPAAN</span> is a platform where people can find the event they want to
                     attend according to their
                     preferences and their availability.<span><a class="orange" href="#">Learn more...</a></span></small>
