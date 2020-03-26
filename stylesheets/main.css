@@ -228,7 +228,7 @@ nav span {
 
 /* FOOTER */
 .footer-links {
-  padding: 1em 2em 0 2em;
+  padding: 1em 1em 0 1em;
   display: flex;
   font-size: 0.9em;
   justify-content: center;
@@ -240,6 +240,8 @@ nav span {
   border-right: none;
   border-left: none;
   padding: 0.5em 0;
+  width: 100%;
+  text-align: center;
 }
 
 .footer-links span {
@@ -380,11 +382,12 @@ nav span {
   }
 
   .footer-links {
-    padding-top: 2em;
+    padding: 2em 3em 0 3em;
+
   }
 
   .footer-links .wrapper {
-    width: 90%;
+    width: 100%;
     text-align: center;
     font-size: 1.5em;
     display: flex;
