@@ -305,7 +305,7 @@ nav span {
 
 .footer-form a {
   display: block;
-  background-color: rgba(153, 165, 166, 0.486);
+  background-color: rgb(36, 37, 37);
   color: #fff;
   width: 100%;
   padding: 8px;
@@ -329,7 +329,7 @@ nav span {
   text-align: center;
   padding-bottom: 1.5em;
   padding-top: 1em;
-  background-color: rgb(46, 48, 48);
+  background-color: rgb(36, 37, 37);
 }
 
 .social-icons {
