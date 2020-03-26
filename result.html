@@ -18,7 +18,8 @@
             </div>
 
             <div class="nav-part2">
-                <span class="uppercase"><i class="fa fa-search-location fa-lg"></i></span><span  class="uppercase d-none"><a href="result.html">comming soon</a></span>
+                <span class="uppercase"><a href="result.html"><i class="fa fa-search-location fa-lg"></i></a></span><span
+                    class="uppercase d-none"><a href="result.html">comming soon</a></span>
                 <span class="uppercase"><i class="fas fa-rss fa-lg"></i></span><span  class="uppercase d-none">blog</span>
                 <span class="uppercase"><i class="fas fa-bars fa-lg"></i></span><span  class="uppercase d-none">more</span>
             </div>
@@ -26,7 +27,42 @@
     </header>
 
     <main>
+        <div class="fiter-div">
+            <h4 class="text capitalize">filter by date, city and category</h4>
+            <div class="filter-field">
+                <div class="date">
+                    <label for="" class="block uppercase">date</label>
+                    <input type="date" name="event-date">
+                </div>
 
+                <div class="category">
+                    <label for="" class="block uppercase">category</label>
+                    <select name="day">
+                        <option value="sport" selected>sport</option>
+                        <option value="danse">tech room</option>
+                        <option value="movies">cinema</option>
+                        <option value="danse">theatre</option>
+                        <option value="danse">conference</option>
+                    </select>     
+                </div>
+
+                <div class="city">
+                    <label for="" class="block uppercase">city</label>
+                    <select name="day">
+                        <option value="Friday" selected>douala</option>
+                        <option value="Saturday">yaounde</option>
+                        <option value="Sunday">buea</option>
+                        <option value="Sunday">bamenda</option>
+                        <option value="Sunday">ngaoundere</option>
+                    </select>                  
+                </div>
+
+                <div class="buttons">
+                    <a class="" href="#" name="submit" value="Send">search</a>
+                    <a class="" href="#">clear filter</a>
+                </div>
+            </div>
+        </div>
     </main>
 
     <footer>
@@ -48,7 +84,7 @@
             <div class="subscribe">
                 <h4 class="uppercase bold">subscribe</h4>
                 <form class="footer-form" action="post">
-                    <input type="text" placeholder="you@example.com">
+                    <input type="email" placeholder="you@example.com">
                     <a href="#">send</a>
                 </form>
             </div>

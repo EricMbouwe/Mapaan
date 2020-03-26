@@ -9,6 +9,24 @@ body {
   box-sizing: border-box;
 }
 
+.block {
+  display: block;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.filter-div {
+  padding: 2em 4em;
+  background-color: red !important;
+}
+
+.fiter-div .text {
+  color: gray;
+  padding: 1em;
+}
+
 @media (min-width: 768px) {
 
 }
