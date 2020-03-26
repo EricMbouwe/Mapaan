@@ -27,17 +27,17 @@
     </header>
 
     <main>
-        <div class="fiter-div">
-            <h4 class="text capitalize">filter by date, city and category</h4>
+        <section class="filter-div">
+            <h3 class="filter-text capitalize">filter by date, city and category</h3>
             <div class="filter-field">
                 <div class="date">
-                    <label for="" class="block uppercase">date</label>
+                    <label for="" class="block uppercase bold">date</label>
                     <input type="date" name="event-date">
                 </div>
 
                 <div class="category">
-                    <label for="" class="block uppercase">category</label>
-                    <select name="day">
+                    <label for="" class="block uppercase bold">category</label>
+                    <select class="category-options capitalize" name="day">
                         <option value="sport" selected>sport</option>
                         <option value="danse">tech room</option>
                         <option value="movies">cinema</option>
@@ -47,8 +47,8 @@
                 </div>
 
                 <div class="city">
-                    <label for="" class="block uppercase">city</label>
-                    <select name="day">
+                    <label for="" class="block uppercase bold">city</label>
+                    <select class="city-options capitalize name="day">
                         <option value="Friday" selected>douala</option>
                         <option value="Saturday">yaounde</option>
                         <option value="Sunday">buea</option>
@@ -58,11 +58,41 @@
                 </div>
 
                 <div class="buttons">
-                    <a class="" href="#" name="submit" value="Send">search</a>
-                    <a class="" href="#">clear filter</a>
+                    <a class="srch-btn block" href="#" name="submit" value="Send">search</a>
+                    <a class="clr-btn block" href="#">clear filter</a>
                 </div>
             </div>
-        </div>
+        </section>
+
+        <section class="results">
+            <h3 class="normal capitalize">search results found 6 events</h3>
+            <div class="events-found">
+                <div class="box1">
+                    <a class="block" href="details.html"><img src="" alt=""></a>
+                    <p class="event-title"><a href="details.html">test</a></p>
+                </div>
+                <div class="box2">
+                    <a class="block" href="details.html"><img src="" alt=""></a>
+                    <p class="event-title"><a href="details.html">test</a></p>
+                </div>
+                <div class="box3">
+                    <a class="block" href="details.html"><img src="" alt=""></a>
+                    <p class="event-title"><a href="details.html">test</a></p>
+                </div>
+                <div class="box4">
+                    <a class="block" href="details.html"><img src="" alt=""></a>
+                    <p class="event-title"><a href="details.html">test</a></p>
+                </div>
+                <div class="box5">
+                    <a class="block" href="details.html"><img src="" alt=""></a>
+                    <p class="event-title"><a href="details.html">test</a></p>
+                </div>
+                <div class="box6">
+                    <a class="block" href="details.html"><img src="" alt=""></a>
+                    <p class="event-title"><a href="details.html">test</a></p>
+                </div>
+            </div>
+        </section>
     </main>
 
     <footer>

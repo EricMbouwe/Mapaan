@@ -1,5 +1,6 @@
 body {
-  font-family: acumin-pro, "Acumin Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: acumin-pro, "Acumin Pro", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
   padding: 0;
   margin: 0;
   font-size: 14px;
@@ -7,6 +8,10 @@ body {
 
 * {
   box-sizing: border-box;
+}
+
+a {
+  color: black;
 }
 
 .block {
@@ -19,16 +24,87 @@ body {
 
 .filter-div {
   padding: 2em 4em;
-  background-color: red !important;
+  background-color: lightgrey;
+  margin-top: 3em;
 }
 
-.fiter-div .text {
+.filter-text {
   color: gray;
-  padding: 1em;
+  margin: 0.5em;
+  padding: 0.5em;
+}
+
+.date,
+.category,
+.city,
+.buttons {
+  margin: 0.5em;
+  padding: 0.5em;
+}
+
+.date input {
+  padding: 0.4em;
+  margin-top: 0.5em;
+  width: 100%;
+  max-width: 600px;
+  border: none;
+}
+
+.category-options,
+.city-options {
+  padding: 0.5em;
+  margin-top: 0.5em;
+  width: 100%;
+  max-width: 600px;
+  border: none;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding-bottom: 0.7em;
+  font-size: 0.85em;
+  text-align: center;
+}
+
+.srch-btn {
+  background-color: blue;
+  border-radius: 4px;
+  flex: 1;
+  margin-right: 0.5em;
+  padding: 0.5em;
+}
+
+.clr-btn {
+  background-color: yellowgreen;
+  border-radius: 4px;
+  flex: 2;
+  padding: 0.5em;
+}
+
+.events-found {
+  display: flex;
+  flex-direction: column;
 }
 
 @media (min-width: 768px) {
+  .filter-field {
+    display: flex;
+    justify-content: space-between;
+  }
 
+  .date,
+  .category,
+  .city,
+  .buttons {
+    flex: 1;
+  }
+
+  .events-found {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
 }
 
 @media (min-width: 1024px) {
