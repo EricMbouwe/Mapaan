@@ -122,7 +122,6 @@ img {
   margin: 1em 0;
   background-color: #d4574a;
   border: 2px solid transparent;
-  border-radius: 3px;
 }
 
 .event-title a {
@@ -166,6 +165,11 @@ img {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
+  }
+
+  .box,
+  .box-week {
+    border-radius: 3px;
   }
 
   .events-found .box {
