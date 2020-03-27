@@ -3,6 +3,7 @@ body {
   padding: 0;
   margin: 0;
   font-size: 14px;
+  min-width: 320px;
 }
 
 * {
@@ -18,7 +19,7 @@ body {
 }
 
 .filter-div {
-  padding: 2em 4em;
+  padding: 2em 3em;
   background-color: lightgrey;
   margin-top: 6em;
 }
@@ -104,16 +105,16 @@ img {
 .box,
 .box-week {
   margin: 1em 0;
-  background-color: lightgrey;
+  background-color: #d4574a;
 }
 
 .event-title a {
   font-size: 1.2em;
-  color: #000;
+  color: #fff;
 }
 
 .event-title a:hover {
-  color: #d4574a;
+  color: #9fa9a3;
 }
 
 .box-week-title {
@@ -156,7 +157,7 @@ img {
   }
 
   .box-week {
-    max-width: 60%;
+    max-width: 70%;
     margin: auto;
   }
 }

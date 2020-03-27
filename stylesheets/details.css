@@ -1,6 +1,7 @@
 body {
   font-family: acumin-pro, "Acumin Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
+  min-width: 320px;
 }
 
 * {
@@ -66,7 +67,7 @@ main {
 }
 
 .map img {
-  max-height: 30em;
+  max-height: 25%;
 }
 
 @media (min-width: 768px) {

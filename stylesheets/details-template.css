@@ -1,3 +1,7 @@
+body {
+  min-width: 320px;
+}
+
 main {
   margin-top: 4em;
   padding: 2em;
@@ -10,22 +14,32 @@ main {
   border: 1px solid gray;
   box-shadow: black;
   margin: auto;
-  height: 20em;
   align-items: center;
   justify-content: center;
 }
 
+.home-btn {
+  padding: 0.6em;
+  margin: 0.5em;
+  background-color: #d4574a;
+  width: 30%;
+  text-align: center;
+  border-radius: 4px;
+}
+
 .oups img {
-    width: 100%;
-    max-width: 200%;
+  width: 100%;
+  max-width: 200%;
+  height: auto;
 }
 
 @media (min-width: 768px) {
   main {
-      padding: 4em;
-  }
-  .oups {
-    width: 50%;
     padding: 4em;
+  }
+  
+  .oups {
+    width: 60%;
+    padding: 2em;
   }
 }
