@@ -22,7 +22,7 @@ Additional description about the project and its features.
 
 [Live Video]()
 
-[Live Link](https://rawcdn.githack.com/EricMbouwe/Microverse-HTML-CSS-capstone-project/31fdafe8bd1d492b2f743aef6a0ea552b7bc52af/index.html)
+[Live Link](https://rawcdn.githack.com/EricMbouwe/Microverse-HTML-CSS-capstone-project/4155205fe863100cef524e1a89cea97c971427ea/index.html)
 
 ## Getting Started
 
@@ -70,11 +70,9 @@ Feel free to check the [issues page](https://github.com/EricMbouwe/Microverse-HT
 Give a ⭐️ if you like this project!
 
 ## Acknowledgments
-
-- The Odin Project
-- [LearnWebCode](https://www.youtube.com/channel/UCHRp19HU7Y2LwfI0Ai6WAGQ)
+- The [original design](https://www.behance.net/gallery/25563385/PatashuleKE) is attributed to [Mathew Njuguna and others on Behance](https://www.behance.net/mathewnjuguna).
 - [Microverse](microverse.org)
 
 ## 📝 License
-
-This project is free to use as learning purposes.
+- The original design is licenced under the [Creative Commons 4.0 licence](https://creativecommons.org/licenses/by-nc/4.0/)
+- This project is [MIT](https://github.com/EricMbouwe/Microverse-HTML-CSS-capstone-project/blob/master/LICENSE.md) licensed
