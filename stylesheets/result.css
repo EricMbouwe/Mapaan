@@ -19,7 +19,7 @@ body {
 }
 
 .filter-div {
-  padding: 2em 3em;
+  padding: 2em 2em;
   background-color: lightgrey;
   margin-top: 6em;
 }
@@ -40,20 +40,20 @@ body {
 }
 
 .date input {
-  padding: 0.4em;
+  padding: 0.5em;
   margin-top: 0.5em;
   width: 100%;
-  max-width: 600px;
   border: none;
+  border-radius: 3px;
 }
 
 .category-options,
 .city-options {
-  padding: 0.5em;
+  padding: 0.6em;
   margin-top: 0.5em;
   width: 100%;
-  max-width: 600px;
   border: none;
+  border-radius: 3px;
 }
 
 .buttons {
@@ -66,18 +66,31 @@ body {
 }
 
 .srch-btn {
-  background-color: blue;
-  border-radius: 4px;
+  background-color: rgb(76, 76, 138);
+  border: none;
+  border-radius: 3px;
   flex: 1;
   margin-right: 0.5em;
-  padding: 0.6em;
+  padding: 0.7em;
+  color: #fff;
 }
 
 .clr-btn {
-  background-color: yellowgreen;
-  border-radius: 4px;
+  background-color: rgb(132, 151, 94);
+  border-radius: 3px;
+  border: none;
   flex: 2;
-  padding: 0.6em;
+  padding: 0.7em;
+  color: #fff;
+}
+
+.srch-btn:focus,.clr-btn:focus {
+  outline-color: transparent;
+}
+
+.srch-btn:hover,.clr-btn:hover {
+  filter: contrast(120%);
+  color: rgba(0, 0, 0, 0.705);
 }
 
 .results {
@@ -106,6 +119,8 @@ img {
 .box-week {
   margin: 1em 0;
   background-color: #d4574a;
+  border: 4px solid transparent;
+  border-radius: 3px;
 }
 
 .event-title a {
@@ -114,7 +129,7 @@ img {
 }
 
 .event-title a:hover {
-  color: #9fa9a3;
+  color: lightgrey;
 }
 
 .box-week-title {
@@ -152,7 +167,7 @@ img {
   }
 
   .events-found .box {
-    flex-basis: 32%;
+    flex-basis: 32.5%;
     margin: 0.5em 0;
   }
 

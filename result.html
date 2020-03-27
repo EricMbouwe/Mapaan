@@ -33,16 +33,17 @@
     <main>
         <section class="filter-div">
             <h3 class="filter-text capitalize">filter by date, city and category</h3>
-            <div class="filter-field">
+            <form class="filter-field">
                 <div class="date">
-                    <label class="block uppercase bold">date <b>*</b></label>
+                    <label class="block uppercase bold">date *</label>
                     <input type="date" name="event-date">
                 </div>
 
                 <div class="category">
-                    <label class="block uppercase bold">category <b>*</b></label>
+                    <label class="block uppercase bold">category *</label>
                     <select class="category-options capitalize" name="day">
-                        <option value="sport" selected>sport</option>
+                        <option value="sport" selected></option>
+                        <option value="Friday">sport</option>
                         <option value="danse">culture</option>
                         <option value="movies">cinema</option>
                         <option value="danse">tech</option>
@@ -51,9 +52,10 @@
                 </div>
 
                 <div class="city">
-                    <label class="block uppercase bold">city <b>*</b></label>
+                    <label class="block uppercase bold">city *</label>
                     <select class="city-options capitalize">
-                        <option value="Friday" selected>douala</option>
+                        <option value="Friday" selected></option>
+                        <option value="Friday">douala</option>
                         <option value="Saturday">yaounde</option>
                         <option value="Sunday">buea</option>
                         <option value="Sunday">bamenda</option>
@@ -62,10 +64,10 @@
                 </div>
 
                 <div class="buttons">
-                    <a class="srch-btn block" href="#">search</a>
-                    <a class="clr-btn block" href="#">clear filter</a>
+                    <button class="srch-btn block" type="submit">search</button>
+                    <button class="clr-btn block" type="reset" value="">clear filter</button>
                 </div>
-            </div>
+            </form>
         </section>
 
         <section class="results">

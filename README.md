@@ -20,9 +20,9 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Video]()
+[Live Video](https://www.loom.com/share/71c8ab0f329740ca8cabd714e9cb580b)
 
-[Live Link](https://rawcdn.githack.com/EricMbouwe/Microverse-HTML-CSS-capstone-project/4155205fe863100cef524e1a89cea97c971427ea/index.html)
+[Live Link](https://mapaan.netlify.com/)
 
 ## Getting Started
 
