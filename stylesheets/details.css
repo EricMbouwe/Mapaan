@@ -45,6 +45,7 @@ main {
   font-size: 0.8em;
   width: 40%;
   font-weight: 600;
+  border-radius: 3px;
 }
 
 .read-btn {
@@ -55,6 +56,7 @@ main {
   font-size: 0.8em;
   width: 40%;
   font-weight: 600;
+  border-radius: 3px;
 }
 
 .map {
