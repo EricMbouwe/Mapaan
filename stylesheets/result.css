@@ -84,11 +84,13 @@ body {
   color: #fff;
 }
 
-.srch-btn:focus,.clr-btn:focus {
+.srch-btn:focus,
+.clr-btn:focus {
   outline-color: transparent;
 }
 
-.srch-btn:hover,.clr-btn:hover {
+.srch-btn:hover,
+.clr-btn:hover {
   filter: contrast(120%);
   color: rgba(0, 0, 0, 0.705);
 }
