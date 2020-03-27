@@ -75,7 +75,7 @@ nav span {
 
 .picture {
   display: flex;
-  background-image: url(https://www.envoos.com/wp-content/uploads/2019/08/technology-in-cameroon-1024x435.jpg);
+  background: url(https://www.envoos.com/wp-content/uploads/2019/08/technology-in-cameroon-1024x435.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
