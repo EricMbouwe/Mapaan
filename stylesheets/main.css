@@ -1,6 +1,5 @@
 body {
-  font-family: acumin-pro, "Acumin Pro", "Helvetica Neue", Helvetica, Arial,
-    sans-serif;
+  font-family: acumin-pro, "Acumin Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
 }
 
@@ -21,6 +20,10 @@ a {
 
 .p-1 {
   padding: 0.5em;
+}
+
+.dn {
+  display: none;
 }
 
 .iblock {
@@ -153,6 +156,14 @@ nav span {
   margin-top: 3em;
 }
 
+.footer-links span {
+  margin: 0 0.2em;
+}
+
+.social-icons span {
+  margin: 0 0.5em;
+}
+
 #works span {
   padding: 0.5em;
   margin: 0.5em;
@@ -263,10 +274,6 @@ nav span {
   text-align: center;
 }
 
-.footer-links span {
-  margin: 0 0.2em;
-}
-
 .footer-links a {
   color: #fff;
   text-transform: uppercase;
@@ -336,10 +343,6 @@ nav span {
   margin-bottom: 0.5em;
 }
 
-.social-icons span {
-  margin: 0 0.5em;
-}
-
 .social-icons a,
 .marq {
   color: #99a5a6;
@@ -399,6 +402,13 @@ nav span {
     padding: 1em 3em;
   }
 
+  .footer-form a {
+    display: block;
+    text-align: center;
+    flex: 1;
+    margin-top: 0;
+  }
+
   #marketing a {
     order: 2;
   }
@@ -410,7 +420,6 @@ nav span {
 
   .footer-links {
     padding: 2em 3em 0 3em;
-
   }
 
   .footer-links .wrapper {
@@ -445,13 +454,6 @@ nav span {
   .footer-form input:focus {
     outline-color: #d3d4db;
     outline-width: 1px;
-  }
-
-  .footer-form a {
-    display: block;
-    text-align: center;
-    flex: 1;
-    margin-top: 0;
   }
 
   .bottom {
@@ -491,10 +493,6 @@ nav span {
   .header-form .search-btn {
     background-color: #d4574a;
     border: 1px solid #d4574a;
-  }
-
-  .header-form input {
-  
   }
 
   .header-form input:focus {

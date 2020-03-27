@@ -1,6 +1,5 @@
 body {
-  font-family: acumin-pro, "Acumin Pro", "Helvetica Neue", Helvetica, Arial,
-    sans-serif;
+  font-family: acumin-pro, "Acumin Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
 }
 
@@ -64,6 +63,10 @@ main {
 .map h3 {
   margin: 0.5em;
   padding: 0.5em;
+}
+
+.map img {
+  max-height: 30em;
 }
 
 @media (min-width: 768px) {

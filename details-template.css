@@ -1,0 +1,31 @@
+main {
+  margin-top: 4em;
+  padding: 2em;
+}
+
+.oups {
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+  border: 1px solid gray;
+  box-shadow: black;
+  margin: auto;
+  height: 20em;
+  align-items: center;
+  justify-content: center;
+}
+
+.oups img {
+    width: 100%;
+    max-width: 200%;
+}
+
+@media (min-width: 768px) {
+  main {
+      padding: 4em;
+  }
+  .oups {
+    width: 50%;
+    padding: 4em;
+  }
+}
