@@ -3,16 +3,17 @@ body {
 }
 
 main {
-  margin-top: 4em;
+  margin-top: 5em;
   padding: 2em;
 }
 
 .oups {
   display: flex;
   flex-direction: column;
-  padding: 1em;
-  border: 1px solid gray;
-  box-shadow: black;
+  padding: 0.5em;
+  border: 1px solid lightgrey;
+  border-radius: 4px;
+  box-shadow: 10px 5px 5px #d4574a;
   margin: auto;
   align-items: center;
   justify-content: center;
@@ -28,18 +29,23 @@ main {
 }
 
 .oups img {
-  width: 100%;
+  width: 40%;
   max-width: 200%;
   height: auto;
 }
 
+.oups h2 {
+  text-align: center;
+}
+
 @media (min-width: 768px) {
   main {
+    margin-top: 3em;
     padding: 4em;
   }
 
   .oups {
     width: 60%;
-    padding: 2em;
+    padding: 1em;
   }
 }
