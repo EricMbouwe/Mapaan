@@ -423,6 +423,10 @@ nav span {
     text-align: left;
   }
 
+  .footer-links a:hover {
+    color: gray;
+  }
+
   .footer-links {
     padding: 2em 3em 0 3em;
   }
