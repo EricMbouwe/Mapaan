@@ -361,10 +361,6 @@ nav span {
     padding: 0.5em 3em;
   }
 
-  .nav-part2 span {
-    margin: 0;
-  }
-
   .center-content {
     width: 70%;
   }
@@ -488,7 +484,7 @@ nav span {
   }
 
   .nav-part2 span {
-    margin-right: 0;
+    margin: 0;
   }
 
   .fieldset__text {
