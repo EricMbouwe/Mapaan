@@ -410,6 +410,10 @@ nav span {
     margin-top: 0;
   }
 
+  .footer-links a:hover {
+    color: gray;
+  }
+
   #marketing a {
     order: 2;
   }
@@ -417,10 +421,6 @@ nav span {
   .text {
     order: 1;
     text-align: left;
-  }
-
-  .footer-links a:hover {
-    color: gray;
   }
 
   .footer-links {

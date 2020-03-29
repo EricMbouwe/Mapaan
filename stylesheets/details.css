@@ -17,7 +17,7 @@ img {
 }
 
 main {
-  margin-top: 6.5em;
+  margin-top: 7em;
   text-align: center;
 }
 
@@ -28,7 +28,7 @@ main {
 
 .title {
   text-align: left;
-  color: rgba(83, 83, 83, 0.685);
+  color: #d4574a;
   font-weight: 600;
   margin: 0 0.5em 0.5em 0.5em;
 }

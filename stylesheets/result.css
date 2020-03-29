@@ -91,8 +91,7 @@ body {
 
 .srch-btn:hover,
 .clr-btn:hover {
-  filter: contrast(120%);
-  color: rgba(0, 0, 0, 0.705);
+  filter: contrast(115%);
 }
 
 .results {
@@ -122,6 +121,11 @@ img {
   margin: 1em 0;
   background-color: #d4574a;
   border: 2px solid transparent;
+}
+
+.box:hover,
+.box-week:hover {
+  box-shadow: 10px 5px 5px #d4574a;
 }
 
 .event-title a {
