@@ -17,13 +17,20 @@ img {
 }
 
 main {
-  margin-top: 5.5em;
+  margin-top: 6.5em;
   text-align: center;
 }
 
 .details {
   display: flex;
   flex-direction: column;
+}
+
+.title {
+  text-align: left;
+  color: rgba(83, 83, 83, 0.685);
+  font-weight: 600;
+  margin: 0 0.5em 0.5em 0.5em;
 }
 
 .details-title {
@@ -63,7 +70,7 @@ main {
   padding: 2em 0;
 }
 
-.map h3 {
+.map h2 {
   margin: 0.5em;
   padding: 0.5em;
 }
@@ -74,7 +81,7 @@ main {
 
 @media (min-width: 768px) {
   main {
-    margin-top: 4em;
+    margin-top: 6em;
     text-align: center;
   }
 
@@ -82,6 +89,10 @@ main {
   .map {
     width: 70%;
     margin: auto;
+  }
+
+  .title {
+    margin: 0 0.5em 0.5em 0;
   }
 
   .details-title {
