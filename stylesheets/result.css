@@ -123,6 +123,10 @@ img {
   border: 2px solid transparent;
 }
 
+.box-week {
+  padding-bottom: 1em;
+}
+
 .box:hover,
 .box-week:hover {
   box-shadow: 10px 5px 5px #d4574a;
@@ -141,10 +145,6 @@ img {
   font-weight: 600;
   font-size: 1.8em;
   color: #d4574a;
-}
-
-.box-week {
-  padding-bottom: 1em;
 }
 
 @media (min-width: 768px) {
