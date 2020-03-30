@@ -1,0 +1,52 @@
+body {
+  min-width: 320px;
+}
+
+main {
+  margin-top: 5em;
+  padding: 2em;
+}
+
+.oups {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5em;
+  border: 1px solid lightgrey;
+  border-radius: 4px;
+  box-shadow: 10px 5px 5px #d4574a;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-btn {
+  padding: 0.6em;
+  margin: 0.5em;
+  background-color: #d4574a;
+  width: 30%;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.oups img {
+  width: 40%;
+  max-width: 200%;
+  height: auto;
+}
+
+.oups h2 {
+  text-align: center;
+  font-weight: 400;
+}
+
+@media (min-width: 768px) {
+  main {
+    margin-top: 3em;
+    padding: 4em;
+  }
+
+  .oups {
+    width: 60%;
+    padding: 1em;
+  }
+}
