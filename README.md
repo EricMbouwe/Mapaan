@@ -13,12 +13,11 @@ Additional description about the project and its features.
 
 - HTML
 - CSS
-- BOOTSTRAP
 - Visual Studio Code
 
 ## Live Demo
 
-[Live Video](https://www.loom.com/share/71c8ab0f329740ca8cabd714e9cb580b)
+[Presentation Video](https://www.loom.com/share/71c8ab0f329740ca8cabd714e9cb580b)
 
 [Live Link](https://mapaan.netlify.com/)
 
