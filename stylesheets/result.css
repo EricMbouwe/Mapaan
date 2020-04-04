@@ -1,5 +1,6 @@
 body {
-  font-family: acumin-pro, "Acumin Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: acumin-pro, "Acumin Pro", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
   padding: 0;
   margin: 0;
   font-size: 14px;
@@ -118,7 +119,7 @@ img {
 
 .box,
 .box-week {
-  margin: 1em 0.5em;
+  margin: 0.5em 0.5em;
   background-color: #d4574a;
   border: 2px solid transparent;
   border-radius: 3px;
@@ -128,17 +129,8 @@ img {
   padding-bottom: 1em;
 }
 
-.box:hover,
-.box-week:hover {
-  box-shadow: 10px 5px 5px #d4574a;
-}
-
 .event-title a {
   font-size: 1.2em;
-  color: #fff;
-}
-
-.event-title a:hover {
   color: lightgrey;
 }
 
@@ -150,7 +142,7 @@ img {
 
 @media (min-width: 768px) {
   .filter-div {
-    margin-top: 6em
+    margin-top: 6em;
   }
 
   .filter-field {
@@ -184,6 +176,20 @@ img {
   .box-week {
     max-width: 70%;
     margin: auto;
+  }
+
+  .event-title a {
+    font-size: 1.2em;
+    color: #fff;
+  }
+
+  .box:hover,
+  .box-week:hover {
+    box-shadow: 10px 5px 5px #d4574a;
+  }
+  
+  .event-title a:hover {
+    color: lightgrey;
   }
 }
 
