@@ -21,7 +21,7 @@ body {
 .filter-div {
   padding: 2em 2em;
   background-color: lightgrey;
-  margin-top: 6em;
+  margin-top: 8.5em;
 }
 
 .filter-text {
@@ -118,9 +118,10 @@ img {
 
 .box,
 .box-week {
-  margin: 1em 0;
+  margin: 1em 0.5em;
   background-color: #d4574a;
   border: 2px solid transparent;
+  border-radius: 3px;
 }
 
 .box-week {
@@ -148,6 +149,10 @@ img {
 }
 
 @media (min-width: 768px) {
+  .filter-div {
+    margin-top: 6em
+  }
+
   .filter-field {
     display: flex;
     justify-content: space-between;
@@ -169,11 +174,6 @@ img {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-  }
-
-  .box,
-  .box-week {
-    border-radius: 3px;
   }
 
   .events-found .box {
