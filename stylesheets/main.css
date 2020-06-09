@@ -118,6 +118,10 @@ nav span {
   margin-top: 0.5em;
 }
 
+.header-form input:focus {
+  outline: none;
+}
+
 .header-form .search-btn {
   display: block;
   text-align: center;
@@ -134,8 +138,8 @@ nav span {
 }
 
 .how-btn {
-  display: block;
   background-color: #d3d4db;
+  border:1px solid #eee;
   padding: 0.8em 0.8em;
   border-radius: 0.3em;
   color: #000;
@@ -146,7 +150,6 @@ nav span {
 
 .how-btn:hover {
   background-color: transparent;
-  border:2px solid #eee;
   color: #eee;
 }
 
