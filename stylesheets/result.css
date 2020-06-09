@@ -92,7 +92,7 @@ body {
 }
 
 .srch-btn:focus,
-.clr-btn:focus {
+.clr-btn:focus  {
   outline: none;
   transform: scale(1.01);
   font-weight: bold;

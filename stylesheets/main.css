@@ -75,11 +75,11 @@ nav span {
 
 .picture {
   display: flex;
-  background-image: url(https://www.envoos.com/wp-content/uploads/2019/08/technology-in-cameroon-1024x435.jpg);
+  background-image: url(../images/Carousel/10.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 40em;
+  height: 100vh;
   margin-top: 5em;
 }
 
@@ -128,14 +128,26 @@ nav span {
   margin-top: 0.5em;
 }
 
+.header-form .search-btn:hover {
+  background-color: #a6443d;
+  border-color: #a6443d;
+}
+
 .how-btn {
+  display: block;
   background-color: #d3d4db;
   padding: 0.8em 0.8em;
-  border-radius: 0.1em;
+  border-radius: 0.3em;
   color: #000;
   font-size: 0.88em;
   display: inline-block;
-  margin: 0 auto;
+  margin: 4em auto 0 auto;
+}
+
+.how-btn:hover {
+  background-color: transparent;
+  border:2px solid #eee;
+  color: #eee;
 }
 
 .uppercase {
