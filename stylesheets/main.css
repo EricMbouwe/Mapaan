@@ -287,7 +287,7 @@ nav span {
 }
 
 .footer-links .wrapper {
-  border: 1px solid gray;
+  border: 1px solid #D4574A;
   border-right: none;
   border-left: none;
   padding: 0.5em 0;
@@ -327,18 +327,19 @@ nav span {
   width: 100%;
   padding: 8px;
   margin-top: 0.5em;
-  border: 1px solid gray;
+  border: 1px solid #D4574A;
   background-color: #000;
+  outline: none;
 }
 
 .footer-form a {
   display: block;
-  background-color: rgb(36, 37, 37);
+  background-color: #D4574A;
   color: #fff;
   width: 100%;
   padding: 8px;
   margin-top: 0.5em;
-  border: 1px solid gray;
+  border: 1px solid #D4574A;
 }
 
 .contact {
@@ -422,12 +423,18 @@ nav span {
   .footer-form a {
     display: block;
     text-align: center;
-    flex: 1;
+    flex: 2;
     margin-top: 0;
+    border-left: 0;
+    background-color: transparent;
   }
 
   .footer-links a:hover {
     color: gray;
+  }
+
+  .footer-links .icon__main a:hover {
+    color: #d4574a;
   }
 
   #marketing a {
@@ -472,9 +479,12 @@ nav span {
     margin-top: 0;
   }
 
+  .footer-form a:hover {
+  background-color: #d4574a;
+  }
+
   .footer-form input:focus {
-    outline-color: #d3d4db;
-    outline-width: 1px;
+    outline: none;
   }
 
   .bottom {
@@ -491,7 +501,7 @@ nav span {
 
 @media (min-width: 1024px) {
   body {
-    font-size: 1.6rem;
+    font-size: 1.5rem;
   }
 
   .d-none {
