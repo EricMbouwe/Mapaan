@@ -1,11 +1,12 @@
 html {
   scroll-behavior: smooth;
+  font-size: 62.5%;
 }
 
 body {
   font-family: acumin-pro, "Acumin Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
   min-width: 320px;
+  font-size: 1.2rem;
 }
 
 * {
@@ -490,12 +491,17 @@ nav span {
 
 @media (min-width: 1024px) {
   body {
-    font-size: 16px;
+    font-size: 1.6rem;
   }
 
   .d-none {
     display: inline-block;
     margin: 0 !important;
+  }
+
+  .nav-part2 span:hover {
+    transform: scale(1.1);
+    
   }
 
   .nav-part2 span {
