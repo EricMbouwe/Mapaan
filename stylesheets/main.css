@@ -82,6 +82,7 @@ nav span {
   background-position: center;
   height: 100vh;
   margin-top: 5em;
+  background-attachment: fixed;
 }
 
 .center-content {
@@ -95,7 +96,7 @@ nav span {
   width: 95%;
   margin: 0 auto;
   font-weight: bold;
-  font-size: 1.4em;
+  font-size: 1.5em;
   color: #fff;
   text-align: center;
 }
